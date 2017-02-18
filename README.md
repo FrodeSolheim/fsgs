@@ -2,8 +2,8 @@
 
 FS Game System expands on the functionality provided by FS-UAE Launcher
 and FS-UAE Arcade in combination with the
-[online game database](http://openretro.org) by supporting other platforms
-in addition to Amiga/CDTV/CD32.
+[OpenRetro.org game database](https://openretro.org) by supporting other
+platforms in addition to Amiga/CDTV/CD32.
 
 Using **FS-UAE** Arcade to launch non-Amiga titles may not make any sense
 from a naming perspective. It is expected that a there will be a new project
