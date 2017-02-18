@@ -61,6 +61,8 @@ similar (if you use the portable version, extract into `Plugins` inside
 the portable directory). Plugins are available from
 [http://fs-uae.net/devel/plugins/](http://fs-uae.net/devel/plugins/).
 
+**You need to restart FS-UAE Launcher after adding new plugins.**
+
 You can also download an all-in-one portable bundle with FS-UAE Launcher,
 FS-UAE Arcade and all emulator plugins for x86-64:
 * Linux, Windows and macOS combined (x86-64): [x86-64.tar.gz](https://www.dropbox.com/s/cz10mocy85q3ewc/x86-64.tar.gz?dl=0)
