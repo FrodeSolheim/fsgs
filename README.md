@@ -7,8 +7,10 @@ in addition to Amiga/CDTV/CD32.
 
 Using **FS-UAE** Arcade to launch non-Amiga titles may not make any sense
 from a naming perspective. It is expected that a there will be a new project
-name for the combined solution in the future. For now, you can use
+name for the combined solution in the future (*). For now, you can use
 FS-UAE Launcher/Arcade to manage also non-Amiga games.
+
+(*) Possibly "OpenRetro Player" and/or "OpenRetro Arcade".
 
 This is a dummy project which can be used to file bugs / issues against
 FS Game Systems, for issues which does not belong to fs-uae,
@@ -21,14 +23,25 @@ also holds documentation for FS Game System (FSGS).
 * **Amiga** (FS-UAE)
 * **Amstrad CPC** (MultiEmu-FS `*`)
 * **Arcade** (MultiEmu-FS `*`)
+* **Amstrad CPC** (MultiEmu-FS)
+* **Atari 2600** (MultiEmu-FS)
+* **Atari 5200** (MultiEmu-FS)
+* **Atari 7800** (MultiEmu-FS)
 * **Atari ST** (Hatari-FS)
 * **Commodore 64** (Vice-FS)
 * **CD32** (FS-UAE)
 * **CDTV** (FS-UAE)
 * **DOS** (DOSBox-FS)
+* **Game Boy** (Mednafen-FS)
+* **Game Boy Color** (Mednafen-FS)
 * **Game Boy Advance** (Mednafen-FS)
-* **NES** (Mednafen-FS)
-* **SNES** (Mednafen-FS)
+* **Master System** (Mednafen-FS)
+* **Mega Drive** (Mednafen-FS)
+* **Nintendo (NES)** (Mednafen-FS)
+* **PlayStation** (Mednafen-FS)
+* **Super Nintendo (SNES)** (Mednafen-FS)
+* **TurboGrafx-16** (Mednafen-FS)
+* **ZX Spectrum** (MultiEmu-FS)
 
 `*` MultiEmu-FS is basically MAME/MESS, but renamed due to trademark
 
@@ -37,7 +50,7 @@ See "Platforms in Development" for more information.
 
 ## How to Get Started
 
-First of all, you need a recent version of FS-UAE Launcher (2.7.9dev
+First of all, you need a recent version of FS-UAE Launcher (2.9.4dev2
 or higher). You should always use the latest available development
 version, as some games/platforms may depend on it.
 
@@ -47,9 +60,10 @@ should be extracted into your `Documents/FS-UAE/Plugins` directory or
 similar (if you use the portable version, extract into `Plugins` inside
 the portable directory). Plugins are available from
 [http://fs-uae.net/devel/plugins/](http://fs-uae.net/devel/plugins/).
+
 You can also download an all-in-one portable bundle with FS-UAE Launcher,
 FS-UAE Arcade and all emulator plugins for x86-64:
-* Linux, Windows and OS X combined (x86-64): [x86-64.tar.gz](https://www.dropbox.com/s/cz10mocy85q3ewc/x86-64.tar.gz?dl=0)
+* Linux, Windows and macOS combined (x86-64): [x86-64.tar.gz](https://www.dropbox.com/s/cz10mocy85q3ewc/x86-64.tar.gz?dl=0)
 * Windows only (x86-64):
 [Windows.zip](https://www.dropbox.com/s/9olzcp6w7hg0l1h/Windows.zip?dl=0)
 
@@ -57,14 +71,24 @@ You then need to add some config values in FS-UAE Launcher: Settings:
 Advanced Settings in order to download information from the additional
 game databases (you only need to include the lines you want):
 
-    database_arcade = 1
-    database_atari = 1
-    database_c64 = 1
-    database_cpc = 1
-    database_dos = 1
-    database_gba = 1
-    database_nes = 1
-    database_snes = 1
+    arcade_database = 1
+    atari_database = 1
+    a2600_database = 1
+    a5200_database = 1
+    a7800_database = 1
+    c64_database = 1
+    cpc_database = 1
+    dos_database = 1
+    gb_database = 1
+    gba_database = 1
+    gbc_database = 1
+    nes_database = 1
+    psx_database = 1
+    smd_database = 1
+    sms_database = 1
+    snes_database = 1
+    tg16_database = 1
+    zxs_database = 1
 
 When you next update the game database in FS-UAE Launcher, the new
 platforms will be available. It can be a good idea to enable displaying
@@ -77,8 +101,11 @@ game collection using the File Database functions. FS-UAE Launcher will
 happily find game files within .zip or .lha archives.
 
 When you run the "Update File Database" function in FS-UAE Launcher,
-recognized games should appear automatically. Please note that some
-platforms require you to have system ROM files as well.
+recognized games should appear automatically.
+
+Please note that some platforms require you to have system ROM files as
+well. If a ROM file is missing, you'll get an error messag saying which
+ROM file was not found when you try to start the game via FS-UAE Launcher.
 
 ## Common Keyboard Shortcuts
 
@@ -100,10 +127,6 @@ use FS-UAE Arcade instead, you'll be able to choose input devices before
 starting a game.
 
 ## Notes for FS-UAE Arcade
-
-When using FS-UAE Arcade, you are currently not able to choose the
-specific game variant to launch. You'll get the variant you have starred,
-or otherwise the highest rated variant for the game.
 
 ## To-Do
 
