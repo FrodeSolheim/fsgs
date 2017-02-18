@@ -59,7 +59,7 @@ gaming platforms you want to use. See "Supported Systems". The plugins
 should be extracted into your `Documents/FS-UAE/Plugins` directory or
 similar (if you use the portable version, extract into `Plugins` inside
 the portable directory). Plugins are available from
-[http://fs-uae.net/devel/plugins/](http://fs-uae.net/devel/plugins/).
+[https://fs-uae.net/devel/plugins/](https://fs-uae.net/devel/plugins/).
 
 **You need to restart FS-UAE Launcher after adding new plugins.**
 
