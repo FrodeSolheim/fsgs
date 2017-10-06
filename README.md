@@ -13,7 +13,7 @@ FS-UAE Launcher/Arcade to manage also non-Amiga games.
 (*) Possibly "OpenRetro Player" and/or "OpenRetro Arcade".
 
 This is a dummy project which can be used to file bugs / issues against
-FS Game Systems, for issues which does not belong to fs-uae,
+FS Game System, for issues which does not belong to fs-uae,
 fs-uae-launcher, or fs-uae-arcade projects. Specifically, it can be used
 to file bugs for non-Amiga platform support in FS Game System. This project
 also holds documentation for FS Game System (FSGS).
@@ -21,12 +21,12 @@ also holds documentation for FS Game System (FSGS).
 ## Supported Systems (Platforms)
 
 * **Amiga** (FS-UAE)
-* **Amstrad CPC** (MultiEmu-FS `*`)
-* **Arcade** (MultiEmu-FS `*`)
-* **Amstrad CPC** (MultiEmu-FS)
-* **Atari 2600** (MultiEmu-FS)
-* **Atari 5200** (MultiEmu-FS)
-* **Atari 7800** (MultiEmu-FS)
+* **Amstrad CPC** (MAME-FS)
+* **Arcade** (MAME-FS)
+* **Amstrad CPC** (MAME-FS)
+* **Atari 2600** (MAME-FS)
+* **Atari 5200** (MAME-FS)
+* **Atari 7800** (MAME-FS)
 * **Atari ST** (Hatari-FS)
 * **Commodore 64** (Vice-FS)
 * **CD32** (FS-UAE)
@@ -37,13 +37,13 @@ also holds documentation for FS Game System (FSGS).
 * **Game Boy Advance** (Mednafen-FS)
 * **Master System** (Mednafen-FS)
 * **Mega Drive** (Mednafen-FS)
+* **Neo-Geo** (MAME-FS)
 * **Nintendo (NES)** (Mednafen-FS)
 * **PlayStation** (Mednafen-FS)
 * **Super Nintendo (SNES)** (Mednafen-FS)
 * **TurboGrafx-16** (Mednafen-FS)
-* **ZX Spectrum** (MultiEmu-FS)
-
-`*` MultiEmu-FS is basically MAME/MESS, but renamed due to trademark
+* **TurboGrafx-CD** (Mednafen-FS)
+* **ZX Spectrum** (Fuse-FS)
 
 There is ongoing work to support more platforms.
 See "Platforms in Development" for more information.
@@ -53,6 +53,8 @@ See "Platforms in Development" for more information.
 First of all, you need a recent version of FS-UAE Launcher (2.9.4dev2
 or higher). You should always use the latest available development
 version, as some games/platforms may depend on it.
+
+In FS-UAE Launcher: Settings: FS-UAE Launcher, enable "Additional Platforms".
 
 In addition, you need one or more emulator plugins, depending on what
 gaming platforms you want to use. See "Supported Systems". The plugins
@@ -86,6 +88,7 @@ game databases (you only need to include the lines you want):
     gb_database = 1
     gba_database = 1
     gbc_database = 1
+    neogeo_database = 1
     nes_database = 1
     psx_database = 1
     smd_database = 1
@@ -108,7 +111,7 @@ When you run the "Update File Database" function in FS-UAE Launcher,
 recognized games should appear automatically.
 
 Please note that some platforms require you to have system ROM files as
-well. If a ROM file is missing, you'll get an error messag saying which
+well. If a ROM file is missing, you'll get an error message saying which
 ROM file was not found when you try to start the game via FS-UAE Launcher.
 
 ## Common Keyboard Shortcuts
@@ -129,6 +132,9 @@ input devices for input ports. FS-UAE Launcher will auto-select any
 joysticks identified, or use keyboard emulation as a fallback. If you
 use FS-UAE Arcade instead, you'll be able to choose input devices before
 starting a game.
+
+EDIT: This is being fixed, at input configuration works for some
+platforms already (e.g. NES).
 
 ## Notes for FS-UAE Arcade
 
