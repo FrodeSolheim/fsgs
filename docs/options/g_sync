@@ -1,0 +1,8 @@
+Summary: G-Sync
+Type: Choice
+Default: ignore
+Example: 1
+
+Value: ignore (Ignore)
+Value: 1 (On)
+Value: 0 (Off (Linux))

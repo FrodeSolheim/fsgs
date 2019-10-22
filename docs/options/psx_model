@@ -1,0 +1,7 @@
+Summary: PlayStation Model
+Type: Choice
+Default: ntsc
+
+Value: ntsc (NTSC v3.0A ROM BIOS)
+Value: ntsc-j (NTSC-J v3.0J ROM BIOS)
+Value: pal (PAL v3.0E ROM BIOS)

@@ -1,0 +1,8 @@
+Summary: Mega Drive Port 1
+Type: Choice
+Default: gamepad
+
+Value: none ("None")
+Value: gamepad (Control Pad)
+# Value: gamepad2 ("2-Btn Gamepad")
+Value: gamepad6 ("Six Button Control Pad")

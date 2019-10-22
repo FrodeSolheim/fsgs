@@ -1,0 +1,4 @@
+Summary: Preload PlayStation CD images in RAM
+Type: Boolean
+Default: 0
+Example: 1

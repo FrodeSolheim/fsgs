@@ -1,0 +1,9 @@
+Summary: Neo-Geo Model
+Type: Choice
+Default: mvs
+
+Value: mvs (MVS Europe)
+Value: mvs/jp (MVS Japan)
+Value: mvs/us (MVS US)
+Value: aes (AES)
+Value: aes/jp (AES Japan)

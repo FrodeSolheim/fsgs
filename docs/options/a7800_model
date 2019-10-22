@@ -1,0 +1,6 @@
+Summary: Atari 7800 Model
+Type: Choice
+Default: ntsc
+
+Value: ntsc (NTSC)
+Value: pal (PAL)

@@ -1,0 +1,7 @@
+Summary: NES Model
+Type: Choice
+Default: ntsc
+
+Value: ntsc (NES NTSC)
+Value: pal (NES PAL)
+Value: ntsc-j (Famicom)

@@ -1,0 +1,8 @@
+Summary: Nintendo Emulator
+Type: Choice
+Default: mednafen
+Example: 
+
+Value: mednafen (Mednafen)
+Value: higan (Higan)
+Value: retroarch-nestopia (RetroArch Nestopia)

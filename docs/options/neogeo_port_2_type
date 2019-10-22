@@ -1,0 +1,6 @@
+Summary: Neo-Geo Port 2
+Type: Choice
+Default: joystick
+
+Value: none ("None")
+Value: joystick ("Joystick")

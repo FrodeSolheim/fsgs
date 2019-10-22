@@ -1,0 +1,6 @@
+Summary: Mednafen audio buffer
+Type: Integer
+Unit: ms
+Range: 0 - 1000
+Default: 40
+Example: 32

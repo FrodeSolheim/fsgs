@@ -1,0 +1,5 @@
+Summary: Game Gear Port 1
+Type: Choice
+Default: builtin
+
+Value: builtin ("Built-in")

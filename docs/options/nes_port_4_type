@@ -1,0 +1,7 @@
+Summary: NES Port 4
+Type: Choice
+Default: none
+Example: gamepad
+
+Value: none ("None")
+Value: gamepad ("Gamepad")

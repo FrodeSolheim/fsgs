@@ -1,0 +1,13 @@
+Summary: Mednafen audio driver
+Type: Choice
+Default: auto
+
+Value: auto (Auto)
+Value: sdl (SDL)
+Value: alsa (ALSA)
+Value: mednafen (Mednafen Default)
+
+With `auto` specified, Mednafen will use SDL for audio on Linux (to play
+nice with PulseAudio), and its own default on other systems.
+
+To force use of Mednafen's default audio driver selection, use `mednafen`.

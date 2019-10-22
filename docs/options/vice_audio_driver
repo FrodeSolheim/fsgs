@@ -1,0 +1,6 @@
+Summary: Vice Audio Driver
+Type: Choice
+Default: auto
+
+Value: auto ("Auto")
+Value: sdl (SDL)

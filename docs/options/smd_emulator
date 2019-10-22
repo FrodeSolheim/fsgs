@@ -1,0 +1,9 @@
+Summary: Mega Drive Emulator
+Type: Choice
+Default: mednafen-fs
+
+Value: mame-fs (MAME-FS)
+Value: mednafen (Mednafen)
+Value: mednafen-fs (Mednafen-FS)
+Value: retroarch-fs (RetroArch-FS)
+Value: retroarch-fs/genesisplusgx (RetroArch-FS: Genesis Plus GX)

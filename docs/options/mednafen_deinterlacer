@@ -1,0 +1,9 @@
+Summary: Mednafen deinterlacer
+Type: Choice
+Default: weave
+
+Value: weave
+Value: bob
+Value: bob_offset
+Value: blend
+Value: blend_rg

@@ -1,0 +1,9 @@
+Summary: NES Port 1
+Type: Choice
+Default: gamepad
+Example: zapper
+
+Value: none ("None")
+Value: gamepad ("Gamepad")
+Value: zapper (Zapper)
+Value: arkanoid (Arkanoid)

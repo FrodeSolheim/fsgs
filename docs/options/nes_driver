@@ -1,0 +1,10 @@
+Summary: NES Game Driver
+Type: Choice
+Default: mednafen
+
+Value: mednafen-fs (Mednafen-FS)
+Value: higan (Higan)
+Value: libretro-nestopia (Nestopia (RetroArch))
+
+Value: mednafen
+Value: mess

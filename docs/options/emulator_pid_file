@@ -1,0 +1,9 @@
+Summary: Write emulator PID file
+
+Specify a pid file path, and FS-UAE Launcher/Arcade will write the PID
+of the emulator to the specified PID file when the emulator starts, and
+remove the PID file when the emulator exists.
+
+This can be used to monitor the emulator process from the outside, and e.g.
+create an external shutdown button (sending SIGTERM to the emulator process).
+This can be useful for game cabinets.

@@ -1,0 +1,6 @@
+Summary: Atari 7800 Port 1
+Type: Choice
+Default: joystick
+
+Value: none ("None")
+Value: joystick ("Joystick")

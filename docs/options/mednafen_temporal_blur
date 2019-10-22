@@ -1,0 +1,4 @@
+Summary: Mednafen temporal blur
+Type: Boolean
+Default: 0
+Example: 1
