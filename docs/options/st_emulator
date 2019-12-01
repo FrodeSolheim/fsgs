@@ -1,0 +1,7 @@
+Summary: Atari ST emulator
+Type: Choice
+Default: hatari-fs
+Example: hatari
+
+Value: hatari (Hatari)
+Value: hatari-fs (Hatari-FS)

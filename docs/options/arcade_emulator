@@ -1,0 +1,7 @@
+Summary: Arcade Emulator
+Type: Choice
+Default: mame-fs
+Example: mame
+
+Value: mame (MAME)
+Value: mame-fs (MAME-FS)

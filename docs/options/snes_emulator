@@ -1,0 +1,12 @@
+Summary: Super NES Emulator
+Type: Choice
+Default: mednafen-fs
+Example: mednafen
+
+Value: mame (MAME)
+Value: mame-fs (MAME-FS)
+Value: mednafen (Mednafen)
+Value: mednafen-fs (Mednafen-FS)
+Value: retroarch (RetroArch)
+Value: retroarch/bsnes (RetroArch/bsnes)
+Value: retroarch/bsnes2014_accuracy (RetroArch/bsnes2014_accuracy)

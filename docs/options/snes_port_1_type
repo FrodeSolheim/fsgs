@@ -3,4 +3,5 @@ Type: Choice
 Default: gamepad
 
 Value: none ("None")
-Value: gamepad ("Gamepad")
+Value: gamepad ("SNES Controller")
+Value: mouse ("SNES Mouse")

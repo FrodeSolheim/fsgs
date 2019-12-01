@@ -1,8 +1,13 @@
 Summary: Nintendo Emulator
 Type: Choice
-Default: mednafen
-Example: 
+Default: mednafen-fs
+Example: retroarch
 
+# Value: higan (Higan)
+Value: mame (MAME)
+Value: mame-fs (MAME-FS)
 Value: mednafen (Mednafen)
-Value: higan (Higan)
-Value: retroarch-nestopia (RetroArch Nestopia)
+Value: mednafen-fs (Mednafen-FS)
+# Value: retroarch (RetroArch)
+Value: retroarch/mesen (RetroArch/Mesen)
+Value: retroarch/nestopia (RetroArch/Nestopia)

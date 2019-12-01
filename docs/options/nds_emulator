@@ -1,0 +1,7 @@
+Summary: Nintendo DS emulator
+Type: Choice
+Default: melonds
+Example: desmume
+
+Value: melonds (melonDS)
+Value: desmume (DeSmuME)

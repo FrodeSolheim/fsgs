@@ -1,0 +1,8 @@
+Summary: ST Port 0
+Type: Choice
+Default: mouse
+Example: none
+
+Value: none ("None")
+Value: joystick ("Joystick")
+Value: mouse ("Mouse")

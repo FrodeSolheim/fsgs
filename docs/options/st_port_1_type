@@ -1,0 +1,7 @@
+Summary: ST Port 1
+Type: Choice
+Default: joystick
+Example: none
+
+Value: none ("None")
+Value: joystick ("Joystick")

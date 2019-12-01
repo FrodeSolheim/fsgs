@@ -1,0 +1,8 @@
+Summary: Nintendo 64 Emulator
+Type: Choice
+Default: retroarch/mupen64plus_next
+Example: retroarch/parallel_n64
+
+Value: mupen64plus
+Value: retroarch/mupen64plus_next
+Value: retroarch/parallel_n64
